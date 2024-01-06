@@ -10,9 +10,9 @@ name: Test OpenWeatherapi using Restassured
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "fix/*" ]
   workflow_dispatch:  
 
 jobs:
